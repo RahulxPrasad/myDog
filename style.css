@@ -1,0 +1,170 @@
+
+/* styling navbar */
+#navbar
+{
+    font-size: 20px;
+    position: sticky;
+}
+.nav-item
+{
+    font-weight: bold;
+    padding-left:  20px;
+}
+.nav-item a:hover
+{
+    color: #0dcaf0!important;
+}
+
+.navbar-brand
+{
+    margin-right: 50px;
+}
+.navbar-brand span
+{
+    margin-left: 10px;
+}
+#navbar-img
+{
+    margin-left: 50px;
+    width: 60px;
+}
+.navbar-brand i
+{
+    color: yellow;
+    font-size: 1.5em;
+}
+#search-box
+{
+    background-color: #0dcaf0;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    left: 10px;
+    box-shadow: 5px 2px 10px darkcyan;
+    z-index: 2;
+}
+
+#search-box::placeholder
+{
+    color: rgb(71, 63, 63);
+}
+#search-btn
+{
+    position: relative;
+    z-index: 10;
+}
+
+/* styling banner */
+#banner-row
+{
+    background-color: #0dcaf0;    
+}
+#banner-text h1
+{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 4em;
+}
+#banner-text p
+{
+    font-size: 1.2em;
+    margin: 30px 0;
+}
+
+#banner-btn1
+{
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    border: 2px solid white;
+    color: white;
+}
+#banner-btn1:hover
+{
+    background-color: #0875be;
+}
+#banner-btn2
+{
+    margin: 10px;
+    background-color: rgb(255, 255, 149);
+}
+
+
+/* styling service section */
+#service-text
+{
+    padding-top: 4%;
+}
+#service-btn
+{
+    margin: 10px 0;
+    border: 2px solid;
+    background-color: #0dcaf0;
+}
+#service-btn:hover
+{
+    background-color: #0875be;
+    color: white;
+}
+#service-image
+{
+    padding: 5%;
+}
+
+/* records styling */
+#records-section
+{
+    background: linear-gradient( #0dcaf0, #0875be);
+    padding: 50px 0 70px 0;
+}
+.records-icon
+{
+    font-size: 60px;
+}
+
+/* styling footer */
+#footer-section
+{
+    background-color: black;
+    color: white;
+    padding: 5vh;
+}
+#footer-section a
+{
+    text-decoration: none;
+    color: #0dcaf0;
+}
+#footer-section h4 i
+{
+    color: yellow;
+}
+
+#footer-section a i
+{
+    font-size: 1.4em;
+    margin-right:15px;
+}
+
+@media only screen and (max-width:1000px)
+{
+    #banner-text h1
+    {
+        font-size: 3em;
+    }
+}
+@media only screen and (max-width:766px)
+{
+    #banner-text h1
+    {
+        font-size: 2.5em;
+    }
+    #navbar-img
+    {
+        margin-left: 0;
+    }
+    .navbar-brand i
+    {
+        font-size: 1.1em;
+    }
+}
